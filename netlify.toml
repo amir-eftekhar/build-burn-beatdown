@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[dev]
+  command = "npm run dev"
+  port = 5173
+
+[context.production.environment]
+  VITE_SUPABASE_URL = "https://wjuniuyeochdxqnhcxet.supabase.co"
+  VITE_SUPABASE_PUBLISHABLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndqdW5pdXllb2NoZHhxbmhjeGV0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU3MDc0MjgsImV4cCI6MjA2MTI4MzQyOH0.rn2eRPPaa_acYHrqWMg-icFB8RKl-tCVFpehxtW8QkU"
